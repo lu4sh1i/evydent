@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5f466458-9ef8-4bd0-8ede-8700c58404db" name="evydent" url="http://ftp62.claus.ro">
+        <fileTransfer host="ftp62.claus.ro" port="21" rootFolder="/public_html" password="dfcedfc1df9edfc3dfdddf92dff8dffc" username="clinicevy">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

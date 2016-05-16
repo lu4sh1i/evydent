@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Pagina in constructie - Site Gazduit de Claus Web</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta http-equiv="X-UA-Compatible" content="utf-8" />
+
+<!--Styles-->
+<link rel="Stylesheet" type="text/css" href="styles/reset.css" />
+<style>
+body {font-family: trebuchet ms, helvetica, sans-serif; font-size:12px;  text-transform:uppercase; }
+#wrapper {width:980px;  text-align:center; margin-left:auto; margin-right:auto; display:block; position:relative;}
+#container {width:840px; height:550px; margin-top:20px; padding-top:8px; position:relative;}
+#container-shadow {width:887px; height:41px; margin-top:-10px;}
+#copyr {margin-top:-60px;}
+.construction-icon{ margin-left:180px; width:500px; height:334px;}
+.construction-header{width:552px; height:38px; margin-top:-25px; display:block;}
+.header-text{width:552px; height:30px;  font-size:11px; display:inline-block; margin-top:5px; font-weight:bold; }
+a{color:#069; text-decoration:none;
+	}
+
+a:hover{color:#F90; text-decoration:none;
+	}
+
+
+
+/*========================Main elements========================*/
+body{background-image:url('./images/blue/bg.png'); color:#515151;}
+#container-shadow {background:url('./images/container-shadow.png') no-repeat;}
+#container { background:url('./images/blue/container-bg.png') no-repeat;}
+
+/*========================Header========================*/
+
+</style>
+     
+</head>
+
+<body>
+<!-- Theme Switch -->
+<!-- Wrapper -->
+<div id="wrapper">
+    <div id="container">
+    <a style="text-decoration:none;"  href="http://www.clausweb.ro"> <img style="float:right; margin-right:15px;" src="./images/login.png" /></a>
+    <div class="construction-icon"> <img alt="logo claus web"  title="logo claus web" src="./images/blue/clauslogo.png" /></div>
+    <div class="construction-header"> <img alt="pagina sub constructie"  title="pagina sub constructie" src="./images/blue/underconstruction-text.png" /> </div>
+    <div class="header-text cufon">Bine ati venit !<br>
+Acest site web este in constructie. Va rugam sa reveniti in viitorul apropiat.<br><br>
+
+<font style="color:#069; font-size:16px;" >In atentia proprietarului domeniului !</font><br>
+Aceasta este pagina de start. A fost creata automat in momentul activarii contului de gazduire. Pentru a schimba aceasta pagina, va rugam rugam sa stergeti fisierul "index.php".<br>
+<br>
+Pentru a incepe administrarea site-ului, <b><a  text-decoration:none;"  href="http://www.clausweb.ro/login.php"> click aici</a><b>
+ 
+ <br><br><br><br>
+  Site Gazduit de <b><a style="color:#F90;" href="http://www.clausweb.ro"> Claus Web</a><b>
+  
+  <br><br>
+    <a href="http://www.clausweb.ro/inregistrare-domenii.php" target="_blank" title="Domenii">Domenii .ro</a> - <a href="http://www.clausweb.ro/gazduire-web.php" target="_blank" title="Gazduire Web">Gazduire Web</a> - <a href="http://www.inregistrare-domenii.ro/reseller-hosting.html" target="_blank" title="http://www.clausweb.ro/reseller-hosting.php">Reseller Hosting</a> - <a href="http://www.clausweb.ro/servere-dedicate.php" target="_blank" title="Servere Dedicate">Servere Dedicate</a> - <a href="http://www.clausweb.ro/vps.php" target="_blank" title="Servere VPS">Servere VPS</a></td>
+
+
+</div>
+
+  </div>
+   
+    
+    <div id="container-shadow"><div style="text-color:#CCC; color:#CCC; position:relative; margin-top:1px;"><br>(c) <?php echo date("Y");?>. Claus Web . Toate drepturile rezervate. </div></div>
+        
+
+
+</div>
+<!--End Wrapper-->
+
+</body>
+</html>

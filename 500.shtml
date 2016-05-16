@@ -1,0 +1,22 @@
+Eroare 500
+<br><br>
+Eroare 500 este o eroare generica.<br>
+Exist. multe motive pentru care aceasta poate sa apara, dar cele 3 cele mai frecvente sunt:
+<br>
+1) Permisiuni Fisiere / Foldere - serverele (care ofera cPanel) va bloca fisierele PHP, care sunt setate la 777 sau care
+sunt intr-un dosar care este setat la 777, sau chiar daca unul dintre dosarele parinte este 777.<br>
+In loc de a rula fisierul, serverul va arata eroarea 500. Din motive de securitate, atunci cand un fisier este setat la 777,
+oricine poate schimba codul sursa si/sau introduce malware acolo.<br>
+Permisiunile la fisiere ar trebui sa fie setate la 644 , iar la foldere 755.<br>
+2) Server timeout - Fiecare server are o setare time-out, care este timpul in care un script-ul este permis sa ruleze.<br>
+Aceasta limita variaza de la server la server, standard e 30 de secunde.<br>
+Daca executati un script care necesita o perioada lunga de timp pentru a termina (regenerarea miniatura, de import / export,
+sau de rezerva) si ajunge la setarea duratei de timp, o eroare 500 va fi afisata.<br>
+3) sintaxa incorecta in htaccess - Sintaxa In htaccess este foarte stricta, daca adaugati o comanda incorecta, sau chiar un
+caracter incorect, serverul va returna eroare 500.<br>
+Incercati si eliminati htaccess, Pentru a va asigura ca acesta este cauza, iar apoi se poate recrea (Pastrati o copie de
+siguranta a originalului, Htaccess In cazul in care serverul a avut unele variabile necesare acolo).<br>
+<br><br>
+Daca aveti eroare 500 si sunteti sigur ca nu este cauzata de problemele de mai sus, va trebui sa verificati in LOG-uri
+pentru a obtine detalii cu privire la eroare.<br>
+
