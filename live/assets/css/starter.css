@@ -19,6 +19,7 @@
     padding: 40px 15px;
     text-align: center;
   }
+
   /*Navbar shit -$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
   .navbar-header {
     min-height: 80px;
@@ -26,6 +27,22 @@
 
   .brand-logo-sm {
     margin-top: -7px;
+  }
+
+  .brand-color-bg {
+    background-color: #1111B7;
+  }
+
+  .brand-color-txt {
+    color:#1111b7;
+  }
+
+  .white-force {
+    color:white !important;
+  }
+
+  .white-force:hover {
+    color: #1111b7 !important;
   }
 
   .navbar-default {
@@ -276,6 +293,11 @@
   .platinum {
     background-color: #ffd8b4;
   }
+
+  .kinder-color{
+    color: #003d53;
+  }
+
   .kidss {
     background-color: #00b6ff;
   }
@@ -310,6 +332,20 @@
 
   .gold .options {
     color:#c6b540;
+  }
+
+  .top-price {
+    font-size: 70px;
+    text-shadow: 0px 1px 0px rgb(255, 255, 255);
+  }
+  .green {
+    color: #3c763d;
+  }
+  .gold-color {
+    color:#A08808;
+  }
+  .platinum-color {
+    color:#7D4716;
   }
 
   .feature {
@@ -404,6 +440,7 @@
 
 .price {
   padding: 10px;
+  margin:30px 0;
   box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
